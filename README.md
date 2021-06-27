@@ -9,11 +9,13 @@ Channel Decompostion of Dermoscopic Image:
   <img src="https://user-images.githubusercontent.com/63542593/123533923-e7accf00-d736-11eb-90d6-dadeeec6ed0b.png" width="450">
   </p>
   
-###### &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Dermoscopic Image &nbsp; &nbsp; &nbsp; Extracted Blue Channel &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; Hair Locations &nbsp; &nbsp; &nbsp; &nbsp; Enhanced Hair Locations &nbsp; &nbsp; &nbsp; Hair Removed  
-<p align="center">
+  <p align="center">
   <img src="https://user-images.githubusercontent.com/63542593/123533611-62c0b600-d734-11eb-813e-4bab8c88adf4.png" width="150">
   <img src="https://user-images.githubusercontent.com/63542593/123533614-66543d00-d734-11eb-8834-86c2f286bda1.png" width="150">
   <img src="https://user-images.githubusercontent.com/63542593/123533616-681e0080-d734-11eb-99d0-7b031268abd3.png" width="150">
   <img src="https://user-images.githubusercontent.com/63542593/123533618-6b18f100-d734-11eb-88d9-ef5322231fac.png" width="150">
   <img src="https://user-images.githubusercontent.com/63542593/123533623-6eac7800-d734-11eb-8c63-00cae3c2df1a.png" width="150">
 </p>
+
+###### &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Dermoscopic Image &nbsp; &nbsp; &nbsp; Extracted Blue Channel &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; Hair Locations &nbsp; &nbsp; &nbsp; &nbsp; Enhanced Hair Locations &nbsp; &nbsp; &nbsp; Hair Removed  
+
