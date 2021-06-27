@@ -1,6 +1,8 @@
 # Skin-Lesion-Seg-Hair-Removal-KMeans
 
-## Preprocessing - Hair Removal
+### Methodology 
+Algorithm based on Berkeley wavelet transform, k-means clustering, and morphological operations for the border detection and segmentation of skin lesion or neoplasm, which help dermatologists improve and facilitate skin diagnosis lesion as early as possible. Dermoscopic images undergoing the Berkeley wavelet transformation stand out for their ability to show the transition from lesion-to-non-lesion regions. In addition to the clustering of similar regions using K-means clustering, morphological operations are utilized to extract skin lesions from the clustered image
+# Preprocessing - Hair Removal
 Dermoscopic Image is decomposed into R G B Channels. Using the blue channel as the starting point, a grayscale image can be obtained from a dermoscopic image. To identify the dark locations of hair in the dermoscopic image, the acquired grayscale image is subtracted from the image formed by morphologically closing the grayscale image (Bottom-Hat Operation). Obtained hair locations are cleaned using morphological(imerode and imdilate) operations, replaced the hair pixels by neighbouring non-hair pixels(using regionfill which internally uses inward interpolation operation).
 
 Channel Decompostion of Dermoscopic Image:
@@ -17,3 +19,11 @@ Channel Decompostion of Dermoscopic Image:
   <img src="https://user-images.githubusercontent.com/63542593/123533618-6b18f100-d734-11eb-88d9-ef5322231fac.png" width="150">
   <img src="https://user-images.githubusercontent.com/63542593/123533623-6eac7800-d734-11eb-8c63-00cae3c2df1a.png" width="150">
 </p>
+
+### Segmentation Visualization Results
+<p align="center">
+<img src="https://user-images.githubusercontent.com/63542593/123534258-89352000-d739-11eb-8e5a-062f839ff6c9.png" width="700">             
+</p>
+Segmentation and border detection results of the proposed method on PH2 dataset: (row-1): dermatoscopic images,
+(row-2): BWT decomposed images, (row-3): Grayscale decomposed image (row-4): morphologically segmented images, (row-5):
+ground truth images, (row-6): lesion border detected
