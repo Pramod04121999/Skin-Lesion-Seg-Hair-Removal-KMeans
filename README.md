@@ -20,6 +20,12 @@ Dermoscopic Image is decomposed into R G B Channels. Using the blue channel as t
   <img src="https://user-images.githubusercontent.com/63542593/123533623-6eac7800-d734-11eb-8c63-00cae3c2df1a.png" width="150">
 </p>
 
+### KMeans Clustering
+KMeans clustering algorithm was adopted to classify the BWT feature map image(data points) into k clusters so that every pixel belongs to the cluster with the nearest mean. 
+<p align="center">
+<img src="https://user-images.githubusercontent.com/63542593/123534728-ca7aff00-d73c-11eb-9b90-45c98ae045de.png">   
+</p>
+
 ### Quantitative Segmentation Results
 
 <p align="center">
