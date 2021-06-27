@@ -16,6 +16,5 @@ Channel Decompostion of Dermoscopic Image:
   <img src="https://user-images.githubusercontent.com/63542593/123533618-6b18f100-d734-11eb-88d9-ef5322231fac.png" width="150">
   <img src="https://user-images.githubusercontent.com/63542593/123533623-6eac7800-d734-11eb-8c63-00cae3c2df1a.png" width="150">
 </p>
-
 ###### &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Dermoscopic Image &nbsp; &nbsp; &nbsp; Extracted Blue Channel &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; Hair Locations &nbsp; &nbsp; &nbsp; &nbsp; Enhanced Hair Locations &nbsp; &nbsp; &nbsp; Hair Removed  
 
