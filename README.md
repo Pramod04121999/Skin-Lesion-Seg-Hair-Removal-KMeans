@@ -24,6 +24,10 @@ Channel Decompostion of Dermoscopic Image:
 <p align="center">
 <img src="https://user-images.githubusercontent.com/63542593/123534258-89352000-d739-11eb-8e5a-062f839ff6c9.png" width="700">             
 </p>
-Segmentation and border detection results of the proposed method on PH2 dataset: (row-1): dermatoscopic images,
-(row-2): BWT decomposed images, (row-3): Grayscale decomposed image (row-4): morphologically segmented images, (row-5):
-ground truth images, (row-6): lesion border detected
+<p align="center">
+Segmentation and border detection results of the proposed method on PH2 dataset: 
+(row-1): dermatoscopic images,(row-2): BWT decomposed images, 
+(row-3): Grayscale decomposed image (row-4): morphologically segmented images, 
+(row-5): ground truth images, (row-6): lesion border detected           
+</p>
+
