@@ -2,10 +2,10 @@
 
 ### Methodology 
 Algorithm based on Berkeley wavelet transform, k-means clustering, and morphological operations for the border detection and segmentation of skin lesion or neoplasm, which help dermatologists improve and facilitate skin diagnosis lesion as early as possible. Dermoscopic images undergoing the Berkeley wavelet transformation stand out for their ability to show the transition from lesion-to-non-lesion regions. In addition to the clustering of similar regions using K-means clustering, morphological operations are utilized to extract skin lesions from the clustered image
-# Preprocessing - Hair Removal
+### Preprocessing - Hair Removal
 Dermoscopic Image is decomposed into R G B Channels. Using the blue channel as the starting point, a grayscale image can be obtained from a dermoscopic image. To identify the dark locations of hair in the dermoscopic image, the acquired grayscale image is subtracted from the image formed by morphologically closing the grayscale image (Bottom-Hat Operation). Obtained hair locations are cleaned using morphological(imerode and imdilate) operations, replaced the hair pixels by neighbouring non-hair pixels(using regionfill which internally uses inward interpolation operation).
 
-Channel Decompostion of Dermoscopic Image:
+#### Channel Decompostion of Dermoscopic Image:
 <p align="center">
   <img src="https://user-images.githubusercontent.com/63542593/123533924-e8ddfc00-d736-11eb-87d0-5d5815128116.png" width="450">
   <img src="https://user-images.githubusercontent.com/63542593/123533923-e7accf00-d736-11eb-90d6-dadeeec6ed0b.png" width="450">
