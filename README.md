@@ -19,6 +19,7 @@ Dermoscopic Image is decomposed into R G B Channels. Using the blue channel as t
   <img src="https://user-images.githubusercontent.com/63542593/123533618-6b18f100-d734-11eb-88d9-ef5322231fac.png" width="150">
   <img src="https://user-images.githubusercontent.com/63542593/123533623-6eac7800-d734-11eb-8c63-00cae3c2df1a.png" width="150">
 </p>
+
 ### Quantitative Segmentation Results
 
 <p align="center">
@@ -27,6 +28,7 @@ Dermoscopic Image is decomposed into R G B Channels. Using the blue channel as t
 | :---: | :---: | :---: | :---: | :---: |
 |    [PH2](https://ieeexplore.ieee.org/document/6610779)    | 99.10 | 98.49  | 96.80  | 93.79  |
 </p>
+
 #### Segmentation Visualization Results
 <p align="center">
 <img src="https://user-images.githubusercontent.com/63542593/123534258-89352000-d739-11eb-8e5a-062f839ff6c9.png" width="700">             
